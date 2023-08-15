@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b7e2129b7bdd8c4b9b6d4aeb85d7a86, type: 3}
+  m_Name: Intro
+  m_EditorClassIdentifier: 
+  name: Intro
+  dialogueLines:
+  - Wai! *waves* Hey you there!
+  - You look like there's someone in your life that needs taking down a peg or two.
+  - Why don't you pull up a chair, and tell Granny who's been grinding your gears
+    lately?
