@@ -26,7 +26,7 @@ namespace StreetSmiterEventSystem
 
         void Start()
         {
-            //StartEventQueue();
+            StartEventQueue();
         }
 
         public void StartEventQueue() //could possibly be used to start the events queue again after pausing, but will need to test to ensure it doesn't go from the beginning again
