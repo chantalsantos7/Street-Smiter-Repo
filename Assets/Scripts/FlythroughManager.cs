@@ -1,8 +1,6 @@
 using StreetSmiterEventSystem;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.Video;
 
 public class FlythroughManager : MonoBehaviour
@@ -13,6 +11,7 @@ public class FlythroughManager : MonoBehaviour
     public void PlayIntroVideo()
     {
         videoPlayer.renderMode = VideoRenderMode.CameraNearPlane;
+        videoPlayer.clip = introVideo.clip;
         videoPlayer.Play();
         StartCoroutine(DelayGameStart());
     }
@@ -20,6 +19,7 @@ public class FlythroughManager : MonoBehaviour
     IEnumerator DelayGameStart()
     {
         yield return new WaitForSeconds((float)introVideo.clip.length);
+        videoPlayer.enabled = false;
         GameEventsQueue.OnEventEnd?.Invoke();
     }
 }

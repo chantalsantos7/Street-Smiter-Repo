@@ -12,11 +12,6 @@ public class MousePosition3D : MonoBehaviour
         Instance = this;
     }
 
-    private void Update()
-    {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-    }
-
     public static Vector3 GetMouseWorldPosition() => Instance.GetMouseWorldPosition_Instance();
 
     private Vector3 GetMouseWorldPosition_Instance()

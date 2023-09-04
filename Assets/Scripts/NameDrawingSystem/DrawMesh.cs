@@ -13,55 +13,13 @@ public class DrawMesh : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
+            Debug.Log("should create mesh");
             CreateNewMesh();
         }
 
         if (Input.GetMouseButton(0))
         {
-            float minDistance = 0.1f;
-            if (Vector3.Distance(MousePosition3D.GetMouseWorldPosition(), lastMousePosition) > minDistance ) 
-            {
-                Vector3[] vertices = new Vector3[mesh.vertices.Length + 2];
-                Vector2[] uv = new Vector2[mesh.uv.Length + 2];
-                int[] triangles = new int[mesh.triangles.Length + 6];
-
-                mesh.vertices.CopyTo(vertices, 0);
-                mesh.uv.CopyTo(uv, 0);
-                mesh.triangles.CopyTo(triangles, 0);
-
-                int vIndex = vertices.Length - 4;
-                int vIndex0 = vIndex + 0;
-                int vIndex1 = vIndex + 1;
-                int vIndex2 = vIndex + 2;
-                int vIndex3 = vIndex + 3;
-
-                Vector3 mouseForwardVector = (MousePosition3D.GetMouseWorldPosition() - lastMousePosition).normalized;
-                Vector3 normal3D = new Vector3(-1f, 0, 0);
-                Vector3 newVertexUp = MousePosition3D.GetMouseWorldPosition() + Vector3.Cross(mouseForwardVector, normal3D) * lineThickness;
-                Vector3 newVertexDown = MousePosition3D.GetMouseWorldPosition() + Vector3.Cross(mouseForwardVector, normal3D * -1f) * lineThickness;
-
-
-                vertices[vIndex2] = newVertexUp;
-                vertices[vIndex3] = newVertexDown;
-                uv[vIndex2] = Vector2.zero;
-                uv[vIndex3] = Vector2.zero;
-
-                int tIndex = triangles.Length - 6;
-
-                triangles[tIndex + 0] = vIndex0;
-                triangles[tIndex + 1] = vIndex2;
-                triangles[tIndex + 2] = vIndex1;
-
-                triangles[tIndex + 3] = vIndex1;
-                triangles[tIndex + 4] = vIndex2;
-                triangles[tIndex + 5] = vIndex3;
-
-                mesh.vertices = vertices;
-                mesh.uv = uv;
-                mesh.triangles = triangles;
-
-                lastMousePosition = MousePosition3D.GetMouseWorldPosition();
-            }
+            UpdateMesh();
         }
     }
 
@@ -97,5 +55,54 @@ public class DrawMesh : MonoBehaviour
 
         GetComponent<MeshFilter>().mesh = mesh;
         lastMousePosition = MousePosition3D.GetMouseWorldPosition();
+    }
+
+    private void UpdateMesh()
+    {
+        Debug.Log("Updating mesh");
+        float minDistance = 0.1f;
+        if (Vector3.Distance(MousePosition3D.GetMouseWorldPosition(), lastMousePosition) > minDistance)
+        {
+            Vector3[] vertices = new Vector3[mesh.vertices.Length + 2];
+            Vector2[] uv = new Vector2[mesh.uv.Length + 2];
+            int[] triangles = new int[mesh.triangles.Length + 6];
+
+            mesh.vertices.CopyTo(vertices, 0);
+            mesh.uv.CopyTo(uv, 0);
+            mesh.triangles.CopyTo(triangles, 0);
+
+            int vIndex = vertices.Length - 4;
+            int vIndex0 = vIndex + 0;
+            int vIndex1 = vIndex + 1;
+            int vIndex2 = vIndex + 2;
+            int vIndex3 = vIndex + 3;
+
+            Vector3 mouseForwardVector = (MousePosition3D.GetMouseWorldPosition() - lastMousePosition).normalized;
+            Vector3 normal3D = new Vector3(-1f, 0, 0);
+            Vector3 newVertexUp = MousePosition3D.GetMouseWorldPosition() + Vector3.Cross(mouseForwardVector, normal3D) * lineThickness;
+            Vector3 newVertexDown = MousePosition3D.GetMouseWorldPosition() + Vector3.Cross(mouseForwardVector, normal3D * -1f) * lineThickness;
+
+
+            vertices[vIndex2] = newVertexUp;
+            vertices[vIndex3] = newVertexDown;
+            uv[vIndex2] = Vector2.zero;
+            uv[vIndex3] = Vector2.zero;
+
+            int tIndex = triangles.Length - 6;
+
+            triangles[tIndex + 0] = vIndex0;
+            triangles[tIndex + 1] = vIndex2;
+            triangles[tIndex + 2] = vIndex1;
+
+            triangles[tIndex + 3] = vIndex1;
+            triangles[tIndex + 4] = vIndex2;
+            triangles[tIndex + 5] = vIndex3;
+
+            mesh.vertices = vertices;
+            mesh.uv = uv;
+            mesh.triangles = triangles;
+
+            lastMousePosition = MousePosition3D.GetMouseWorldPosition();
+        }
     }
 }
