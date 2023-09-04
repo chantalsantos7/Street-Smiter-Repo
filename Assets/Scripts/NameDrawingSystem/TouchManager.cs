@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using StreetSmiter.Utilities;
 
 [DefaultExecutionOrder(-1)]
 public class TouchManager : MonoBehaviour
