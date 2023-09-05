@@ -227,7 +227,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 40
+  controlID: 51
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -252,7 +252,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 41
+  controlID: 42
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -882,9 +882,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 15.786406, y: 0.31918094, z: 20.64187}
+    m_Target: {x: 16.38197, y: 0.64123535, z: 20.557964}
     speed: 2
-    m_Value: {x: 15.786582, y: 0.31911796, z: 20.641954}
+    m_Value: {x: 16.38197, y: 0.64123535, z: 20.557964}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -930,13 +930,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.21816115, y: -0.14233279, z: 0.032163773, w: -0.965174}
+    m_Target: {x: -0.17492655, y: -0.21753795, z: 0.039637566, w: -0.95966405}
     speed: 2
-    m_Value: {x: -0.2180148, y: -0.14519513, z: 0.032810755, w: -0.9645265}
+    m_Value: {x: -0.17632627, y: -0.21742947, z: 0.03995515, w: -0.9591856}
   m_Size:
     m_Target: 2.051684
     speed: 2
-    m_Value: 1.963334
+    m_Value: 2.051684
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -999,7 +999,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
+      m_SelectedIDs: 7c7a0000
       m_LastClickedID: 0
       m_ExpandedIDs: 0afbffff
       m_RenameOverlay:
@@ -1170,7 +1170,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/SceneAssets/Mesh/Stall
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -1178,16 +1178,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/SceneAssets/Mesh/Stall
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Github\Street-Smiter-Repo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 118.20001}
-    m_SelectedIDs: 74780000
-    m_LastClickedID: 30836
-    m_ExpandedIDs: 000000005c76000042780000767800008078000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 214.20001}
+    m_SelectedIDs: 1e7a0000
+    m_LastClickedID: 31262
+    m_ExpandedIDs: 00000000527800001c7a0000507a000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1215,7 +1215,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000005c760000
+    m_ExpandedIDs: 0000000052780000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
