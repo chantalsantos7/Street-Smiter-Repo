@@ -11,6 +11,7 @@ namespace StreetSmiterEventSystem
 
         public void TriggerEvent()
         {
+            Debug.Log(name);
             for (int i = listeners.Count - 1; i >= 0; i--)
             {
                 listeners[i].OnEventRaised();

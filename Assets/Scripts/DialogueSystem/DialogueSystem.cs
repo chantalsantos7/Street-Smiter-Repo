@@ -18,6 +18,8 @@ public class DialogueSystem : MonoBehaviour
     private bool isDialogueActive = false;
     private List<string> dialogueLines = new List<string>();
 
+    public AudioClip[] audioClips = new AudioClip[8];
+    [SerializeField] private AudioSource _audioSource;
     public void Awake()
     {
         DialoguePanelClick += DisplayNextDialogueMessage;
@@ -51,7 +53,7 @@ public class DialogueSystem : MonoBehaviour
     {
         if (dialogueLines.Count <= 0 || dialogueLines == null) yield return null;
         isDialogueActive = true;
-        //PlayDialogueAudio();
+        PlayDialogueAudio();
         foreach (char letter in dialogueLines[0].ToCharArray())
         {
             textDisplay.text += letter;
@@ -68,7 +70,6 @@ public class DialogueSystem : MonoBehaviour
         isDialogueActive = false;
     }
 
-
     private void AddNewDialogue(List<string> lines)
     {
         dialogueLines.Clear();
@@ -78,6 +79,30 @@ public class DialogueSystem : MonoBehaviour
         }
     }
 
-    
+    //originally written by Luke
+    public void PlayDialogueAudio()
+    {
+        if (audioClips.Length == 0 || audioClips == null)
+        {
+            Debug.LogError("Audio clip array is empty!");
+            return;
+        }
+
+        // Choose a random clip from the array 
+        int index = UnityEngine.Random.Range(0, audioClips.Length - 1);
+        AudioClip clip = audioClips[index];
+
+        //add audio clip to audio source
+        _audioSource.clip = clip;
+        // Play the chosen clip
+        _audioSource.Play();
+    }
+
+    public void StopDialogueAudio()
+    {
+        _audioSource.Stop();
+    }
+
+
 
 }

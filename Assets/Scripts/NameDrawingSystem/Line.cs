@@ -18,12 +18,15 @@ namespace NameDrawingSystem
         public void SetPoint(Vector2 point)
         {
             linePoints.Add(point);
+            
             lineRenderer.positionCount = linePoints.Count;
-            lineRenderer.SetPosition(linePoints.Count - 1, point);
+            //Debug.Log();
+            lineRenderer.SetPosition(lineRenderer.positionCount - 1, point);
         }
 
         public void UpdateLine(Vector2 position) 
         {
+            Debug.Log("UpdateLine reached");
             if (linePoints == null)
             {
                 linePoints = new List<Vector2>();
