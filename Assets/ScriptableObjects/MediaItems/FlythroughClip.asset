@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3cec5f8e94332804886ff4a052bedc6f, type: 3}
-  m_Name: GameEvent
+  m_Script: {fileID: 11500000, guid: 13da5933bea6f6949be717a23ac2aecd, type: 3}
+  m_Name: FlythroughClip
   m_EditorClassIdentifier: 
-  dialogueGroup: {fileID: 0}
+  clip: {fileID: 32900000, guid: ff154cad3776a3a41928e4bba88d519f, type: 3}

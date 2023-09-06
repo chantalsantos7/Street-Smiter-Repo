@@ -1,18 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
+using Leguar.TotalJSON;
 
 public class WeatherManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] MediaItem daySunny;
+    [SerializeField] MediaItem dayRainy;
+    [SerializeField] MediaItem nightClear;
+    [SerializeField] MediaItem nightRainy;
+    [SerializeField] VideoPlayer videoPlayer;
+
+    private void Awake()
     {
+        WeatherAPICall.GetWeather();
+
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
