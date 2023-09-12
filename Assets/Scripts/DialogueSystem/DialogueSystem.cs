@@ -65,6 +65,7 @@ public class DialogueSystem : MonoBehaviour
         {
             yield return new WaitForSeconds(1f);
             DisplayDialoguePanel(false);
+            StopDialogueAudio();
             GameEventsQueue.OnEventEnd?.Invoke();
         }
         isDialogueActive = false;
