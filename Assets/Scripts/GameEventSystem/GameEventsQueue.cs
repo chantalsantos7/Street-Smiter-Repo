@@ -28,12 +28,17 @@ namespace StreetSmiterEventSystem
             StartEventQueue();
         }
 
+        /* Gets the event queue moving at the start of the game, and also can be called as an AnimationEvent at the end of transition animations e.g. paper doll */
         public void StartEventQueue() //could possibly be used to start the events queue again after pausing, but will need to test to ensure it doesn't go from the beginning again
         {
-            eventsQueue.Dequeue().TriggerEvent();
+            PauseEventQueue(false);
+            GameEvent nextEvent = eventsQueue.Dequeue();
+            nextEvent.TriggerEvent();
         }
 
-        /* Pauses the queue so next event doesn't immediately trigger upon the last event ending, to allow animations to play */
+        /* Pauses the queue so next event doesn't immediately trigger upon the last event ending, mostly to allow animations to play
+         * Currently called in:
+            - NameWriting event listener, on NameDrawing object (so clicking confirm button after drawing can restart the event queue) */
         public void PauseEventQueue(bool value)
         {
             queuePaused = value;
@@ -43,7 +48,8 @@ namespace StreetSmiterEventSystem
         {
             if (eventsQueue.Count > 0 && !queuePaused)
             {
-                eventsQueue.Dequeue().TriggerEvent();
+                GameEvent nextEvent = eventsQueue.Dequeue();
+                nextEvent.TriggerEvent();
             }
         }
 
