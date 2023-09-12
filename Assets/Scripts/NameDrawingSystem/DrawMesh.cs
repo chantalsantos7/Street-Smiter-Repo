@@ -6,16 +6,16 @@ using UnityEngine;
 public class DrawMesh : MonoBehaviour
 {
     private Mesh mesh;
+    [SerializeField] private Material lineMaterial;
     private Vector3 lastMousePosition;
-    [SerializeField] float lineThickness;
+    [SerializeField] float lineThickness = 0.2f;
 
+    private void OnEnable()
+    {
+        CreateNewMesh();
+    }
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            Debug.Log("should create mesh");
-            CreateNewMesh();
-        }
 
         if (Input.GetMouseButton(0))
         {
@@ -59,6 +59,7 @@ public class DrawMesh : MonoBehaviour
 
     private void UpdateMesh()
     {
+        //when a new line is being drawn, the previous line updates matching the new movements
         Debug.Log("Updating mesh");
         float minDistance = 0.1f;
         if (Vector3.Distance(MousePosition3D.GetMouseWorldPosition(), lastMousePosition) > minDistance)
