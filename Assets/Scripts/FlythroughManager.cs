@@ -10,6 +10,7 @@ public class FlythroughManager : MonoBehaviour
 
     public void PlayIntroVideo()
     {
+        videoPlayer.targetCamera = Camera.main;
         videoPlayer.renderMode = VideoRenderMode.CameraNearPlane;
         videoPlayer.clip = introVideo.clip;
         videoPlayer.Play();
