@@ -16,11 +16,15 @@ public class DrawMesh : MonoBehaviour
     }
     private void Update()
     {
-
-        if (Input.GetMouseButton(0))
+        if (!Utils.IsPointerOverUI())
         {
-            UpdateMesh();
+            if (Input.GetMouseButton(0))
+            {
+                UpdateMesh();
+            }
         }
+
+        
     }
 
     private void CreateNewMesh()
