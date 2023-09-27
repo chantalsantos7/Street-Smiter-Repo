@@ -1,4 +1,7 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 namespace StreetSmiter.Utilities
 {
@@ -32,6 +35,26 @@ namespace StreetSmiter.Utilities
         {
             Vector3 worldPosition = worldCamera.WorldToScreenPoint(screenPosition);
             return worldPosition;
+        }
+
+        // Is Mouse over a UI Element? Used for ignoring World clicks through UI
+        //Not currently working
+        public static bool IsPointerOverUI()
+        {
+            if (EventSystem.current.IsPointerOverGameObject())
+            {
+                Console.WriteLine("pointer over ui");
+                return true;
+            }
+            else
+            {
+                PointerEventData pe = new PointerEventData(EventSystem.current);
+                pe.position = Input.mousePosition;
+                List<RaycastResult> hits = new List<RaycastResult>();
+                EventSystem.current.RaycastAll(pe, hits);
+                Console.WriteLine(hits.Count > 0);
+                return hits.Count > 0;
+            }
         }
 
     }
