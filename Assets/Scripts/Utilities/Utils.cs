@@ -57,6 +57,13 @@ namespace StreetSmiter.Utilities
             }
         }
 
+        //Clean up GameObjects
+
+        public static void DeleteAllGameObjectsOfType()
+        {
+
+        }
+
     }
 }
 

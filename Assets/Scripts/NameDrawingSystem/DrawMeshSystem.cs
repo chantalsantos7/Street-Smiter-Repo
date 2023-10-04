@@ -71,6 +71,7 @@ public class DrawMeshSystem : MonoBehaviour
     private void CreateMeshObject()
     {
         lastGameObject = new GameObject("DrawMeshSingle", typeof(MeshFilter), typeof(MeshRenderer));
+        lastGameObject.tag = "DrawnLine";
         lastSortingOrder++;
         lastGameObject.GetComponent<MeshRenderer>().sortingOrder = lastSortingOrder;
         //lastGameObject.transform.Rotate(0, 90, 0, Space.World);

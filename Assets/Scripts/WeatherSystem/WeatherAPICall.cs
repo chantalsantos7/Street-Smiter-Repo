@@ -10,7 +10,7 @@ public class WeatherAPICall : MonoBehaviour
     private static string query = "&q=auto:ip&aqi=no"; //API supports looking up IP of device to getweather at location
     private static string weatherConditionsFilePath = "Assets/Resources/weather_conditions.json";
 
-    public static void GetWeather()
+    public static string GetWeather()
     {
         string apiCall = url + apiKey + query;
         HttpWebRequest request = (HttpWebRequest)WebRequest.Create(apiCall);
@@ -24,7 +24,13 @@ public class WeatherAPICall : MonoBehaviour
         //can also get whether it's night or day through "is_day" key in "current"
         bool isDay = weatherResponseJSON.GetJSON("current").GetInt("is_day") == 1;
         int weatherConditionCode = weatherResponseJSON.GetJSON("current").GetJSON("condition").GetInt("code");
-        GetWeatherFromCode(weatherConditionCode);
+        var weather = GetWeatherFromCode(weatherConditionCode).GetString("day");
+        //weather.DebugInEditor("Weather JSON");
+        //returns a string describing the weather condition
+        //so the WeatherManager doesn't have to deal with the weather codes that are specific to this API - if we change APIs, as long as we can parse the weather condition from a string the WeatherManager won't need to change
+
+        return weather;
+
     }
 
     //Get the string weather condition from the condition code provided by the API call
