@@ -45,8 +45,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   events:
+  - {fileID: 11400000, guid: 12e1567ba7c7df648bc758e0668c45d2, type: 2}
   - {fileID: 11400000, guid: 1b7755bc0fdd9de4e9f005f652c6e8c7, type: 2}
   - {fileID: 11400000, guid: ebcebd7af3ccd6f41a36fce2320af664, type: 2}
   - {fileID: 11400000, guid: abc5de1286eff3b4aa57132786085172, type: 2}
+  - {fileID: 11400000, guid: a9fa8856ce581294790c7246434c194b, type: 2}
   - {fileID: 11400000, guid: 3d560fee5dd3567408d0c22883ffe8a6, type: 2}
   - {fileID: 11400000, guid: c2bd71dcc685d1a4e8f2633ba8c9d5d9, type: 2}
