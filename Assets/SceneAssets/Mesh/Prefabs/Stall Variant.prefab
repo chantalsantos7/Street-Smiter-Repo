@@ -1,70 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2237549954312344511
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 6745248261651746223}
-  - component: {fileID: 2924184393179649008}
-  m_Layer: 0
-  m_Name: Reflection Probe
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &6745248261651746223
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2237549954312344511}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.39274397, z: -0, w: 0.9196479}
-  m_LocalPosition: {x: -0.44, y: 2.39, z: -0.22}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 4860966228135223901}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!215 &2924184393179649008
-ReflectionProbe:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2237549954312344511}
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Type: 0
-  m_Mode: 1
-  m_RefreshMode: 0
-  m_TimeSlicingMode: 0
-  m_Resolution: 128
-  m_UpdateFrequency: 0
-  m_BoxSize: {x: 7, y: 5, z: 7}
-  m_BoxOffset: {x: 0, y: 0, z: 0}
-  m_NearClip: 0.3
-  m_FarClip: 1000
-  m_ShadowDistance: 100
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
-  m_CullingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IntensityMultiplier: 1
-  m_BlendDistance: 1
-  m_HDR: 1
-  m_BoxProjection: 0
-  m_RenderDynamicObjects: 0
-  m_UseOcclusionCulling: 1
-  m_Importance: 1
-  m_CustomBakedTexture: {fileID: 0}
 --- !u!1001 &333187018597436968
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1262,7 +1197,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 393cd40fc79a1f44b83851a2a66fa1e9, type: 2}
+      objectReference: {fileID: 2100000, guid: 82e08a0efd0e16f42a4833354c246609, type: 2}
     - target: {fileID: 919132149155446097, guid: f8cf9b2e9ca5dbe41b852d2a6d40f85c,
         type: 3}
       propertyPath: m_Name
@@ -2103,10 +2038,6 @@ PrefabInstance:
         type: 3}
       insertIndex: -1
       addedObject: {fileID: 8076390034842347098}
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 28341b38f01ab8a408924230d4b8dc62,
-        type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 6745248261651746223}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28341b38f01ab8a408924230d4b8dc62, type: 3}
 --- !u!4 &4860966228135223901 stripped
@@ -2251,7 +2182,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 393cd40fc79a1f44b83851a2a66fa1e9, type: 2}
+      objectReference: {fileID: 2100000, guid: 82e08a0efd0e16f42a4833354c246609, type: 2}
     - target: {fileID: 919132149155446097, guid: f8cf9b2e9ca5dbe41b852d2a6d40f85c,
         type: 3}
       propertyPath: m_Name
@@ -2784,7 +2715,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 393cd40fc79a1f44b83851a2a66fa1e9, type: 2}
+      objectReference: {fileID: 2100000, guid: 82e08a0efd0e16f42a4833354c246609, type: 2}
     - target: {fileID: 919132149155446097, guid: f8cf9b2e9ca5dbe41b852d2a6d40f85c,
         type: 3}
       propertyPath: m_Name
@@ -2947,7 +2878,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 393cd40fc79a1f44b83851a2a66fa1e9, type: 2}
+      objectReference: {fileID: 2100000, guid: 82e08a0efd0e16f42a4833354c246609, type: 2}
     - target: {fileID: 919132149155446097, guid: c7d737a8ee190694a8b1f84cd68b7990,
         type: 3}
       propertyPath: m_Name
