@@ -712,7 +712,7 @@ Transform:
   m_GameObject: {fileID: 1055188910077723204}
   serializedVersion: 2
   m_LocalRotation: {x: -5.8383546e-17, y: 0.99896485, z: 6.395443e-17, w: -0.045489732}
-  m_LocalPosition: {x: 19.92, y: -0.64400005, z: 23.872}
+  m_LocalPosition: {x: 19.92, y: -0.64400005, z: 24.26}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -725,7 +725,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1055188910077723204}
-  m_Mesh: {fileID: -675246301801430052, guid: ec6a2d576350e0f4a95a0ec4d1b984cc, type: 3}
+  m_Mesh: {fileID: -3421966707601372179, guid: ec6a2d576350e0f4a95a0ec4d1b984cc, type: 3}
 --- !u!23 &7917409080128003112
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -746,7 +746,10 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 393cd40fc79a1f44b83851a2a66fa1e9, type: 2}
+  - {fileID: 2100000, guid: 11c2ea877caeea944aede14116b8f60a, type: 2}
+  - {fileID: 2100000, guid: 11c2ea877caeea944aede14116b8f60a, type: 2}
+  - {fileID: 2100000, guid: 11c2ea877caeea944aede14116b8f60a, type: 2}
+  - {fileID: 2100000, guid: 11c2ea877caeea944aede14116b8f60a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -961,7 +964,7 @@ Transform:
   m_GameObject: {fileID: 1294792063617700615}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.76521, y: -0.631534, z: 24.4553}
+  m_LocalPosition: {x: 40, y: -0.631534, z: 23.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2371,7 +2374,7 @@ Transform:
   m_GameObject: {fileID: 5467191036067658285}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 16.456219, y: 1.7584661, z: 21.683449}
+  m_LocalPosition: {x: 16.456219, y: 3.02, z: 21.683449}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2392,7 +2395,7 @@ ReflectionProbe:
   m_TimeSlicingMode: 0
   m_Resolution: 128
   m_UpdateFrequency: 0
-  m_BoxSize: {x: 10, y: 5, z: 10}
+  m_BoxSize: {x: 10, y: 8, z: 10}
   m_BoxOffset: {x: 0, y: 0, z: 0}
   m_NearClip: 0.3
   m_FarClip: 1000
