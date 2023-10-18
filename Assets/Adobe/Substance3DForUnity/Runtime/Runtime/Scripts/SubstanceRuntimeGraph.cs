@@ -556,12 +556,22 @@ namespace Adobe.Substance.Runtime
         }
 
         /// <summary>
-        /// Sets instance texture output resolution.
+        /// Sets instance texture output resolution using powers of 2 values.
         /// </summary>
         /// <param name="size"></param>
+        [Obsolete("SubstanceRuntimeGraph.SetTexturesResolution(Vector2Int) has been deprecated since it can lead to missusage. Use SubstanceRuntimeGraph.SetTexturesResolution(TextureResolution) instead for a safer alternative.", false)]
         public void SetTexturesResolution(Vector2Int size)
         {
             _nativeGraph.SetInputInt2(_resolutionInput.Index, size);
+        }
+
+        /// <summary>
+        /// Set instance texture output resolution.
+        /// </summary>
+        /// <param name="size">Enum with valid output resolutions.</param>
+        public void SetTexturesResolution(TextureResolution size)
+        {
+            _nativeGraph.SetInputInt2(_resolutionInput.Index, new Vector2Int((int)size, (int)size));
         }
 
         /// <summary>
@@ -682,6 +692,25 @@ namespace Adobe.Substance.Runtime
             {
                 Exception = exception;
             }
+        }
+
+        /// <summary>
+        /// Valid values for texture resolution.
+        /// </summary>
+        public enum TextureResolution
+        {
+            Resultion2x2 = 1,
+            Resultion4x4 = 2,
+            Resultion8x8 = 3,
+            Resultion16x16 = 4,
+            Resultion32x32 = 5,
+            Resultion64x64 = 6,
+            Resultion128x128 = 7,
+            Resultion256x256 = 8,
+            Resultion512x512 = 9,
+            Resultion1024x1024 = 10,
+            Resultion2048x2048 = 11,
+            Resultion4096x4096 = 12,
         }
     }
 }

@@ -76,7 +76,7 @@ namespace Adobe.SubstanceEditor
         /// <param name="graph">Target graph.</param>
         /// <param name="inputId">Input id.</param>
         /// <param name="value">Value</param>
-        public static void SetGraphFloat4Input(SubstanceGraphSO graph, int inputId, Vector3 value)
+        public static void SetGraphFloat4Input(SubstanceGraphSO graph, int inputId, Vector4 value)
         {
             var so = new SerializedObject(graph);
             var graphInputs = so.FindProperty("Input");

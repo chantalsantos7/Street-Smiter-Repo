@@ -1,0 +1,576 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed5864476f84ce4b85454db09ca4eaa, type: 3}
+  m_Name: Yellow
+  m_EditorClassIdentifier: 
+  AssetPath: Assets/SceneAssets/Materials/Chloe/StreetSmiter Textures.sbsar
+  RawData: {fileID: -244192453324840774, guid: c374c25b3d709bb41aa62055f46aaba5, type: 3}
+  Name: Yellow
+  IsRoot: 0
+  FlagedForDelete: 0
+  GUID: c5b32741-33e2-403e-b40b-103a0951b754
+  Index: 3
+  Input:
+  - rid: 1172786803485966396
+  - rid: 1172786803485966397
+  - rid: 1172786803485966398
+  - rid: 1172786803485966399
+  - rid: 1172786803485966400
+  - rid: 1172786803485966401
+  - rid: 1172786803485966402
+  - rid: 1172786803485966403
+  - rid: 1172786803485966404
+  - rid: 1172786803485966405
+  - rid: 1172786803485966406
+  - rid: 1172786803485966407
+  - rid: 1172786803485966408
+  - rid: 1172786803485966409
+  - rid: 1172786803485966410
+  - rid: 1172786803485966411
+  - rid: 1172786803485966412
+  - rid: 1172786803485966413
+  - rid: 1172786803485966414
+  Output:
+  - Index: 0
+    VirtualOutputIndex: 7
+    Description:
+      Identifier: basecolor
+      Label: basecolor
+      Index: 0
+      Type: 8
+      Channel: baseColor
+    OutputTexture: {fileID: 2800000, guid: eb8fc8b2d5e46a043aeb6dfc90107b0b, type: 3}
+    sRGB: 1
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _BaseMap
+  - Index: 1
+    VirtualOutputIndex: 8
+    Description:
+      Identifier: normal
+      Label: normal
+      Index: 1
+      Type: 8
+      Channel: normal
+    OutputTexture: {fileID: 2800000, guid: 44973743673110349890ec8fc281e9ae, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 0
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _BumpMap
+  - Index: 2
+    VirtualOutputIndex: 9
+    Description:
+      Identifier: roughness
+      Label: roughness
+      Index: 2
+      Type: 8
+      Channel: roughness
+    OutputTexture: {fileID: 0}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _RoughnessMap
+  - Index: 3
+    VirtualOutputIndex: 10
+    Description:
+      Identifier: metallic
+      Label: metallic
+      Index: 3
+      Type: 8
+      Channel: metallic
+    OutputTexture: {fileID: 2800000, guid: 86c9f8c0cdff4014fa525107464d141a, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: roughness
+    InvertAssignedAlpha: 1
+    Flags: 0
+    MaterialTextureTarget: _MetallicGlossMap
+  - Index: 4
+    VirtualOutputIndex: 11
+    Description:
+      Identifier: height
+      Label: height
+      Index: 4
+      Type: 8
+      Channel: height
+    OutputTexture: {fileID: 2800000, guid: 579b6944ab1f81d44a5f2c1012501fef, type: 3}
+    sRGB: 1
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _ParallaxMap
+  - Index: 5
+    VirtualOutputIndex: 12
+    Description:
+      Identifier: ambientocclusion
+      Label: ambientocclusion
+      Index: 5
+      Type: 8
+      Channel: ambientOcclusion
+    OutputTexture: {fileID: 2800000, guid: 0fe012051f1849944824a70e63e907a8, type: 3}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: _OcclusionMap
+  - Index: 6
+    VirtualOutputIndex: 13
+    Description:
+      Identifier: watercolourOutput
+      Label: watercolourOutput
+      Index: 6
+      Type: 8
+      Channel: unkown
+    OutputTexture: {fileID: 0}
+    sRGB: 0
+    IsVirtual: 0
+    IsAlphaAssignable: 1
+    AlphaChannel: 
+    InvertAssignedAlpha: 0
+    Flags: 0
+    MaterialTextureTarget: 
+  HasPhysicalSize: 0
+  PhysicalSize: {x: 0, y: 0, z: 0}
+  EnablePhysicalSize: 0
+  Thumbnail: 
+  HasThumbnail: 0
+  CurrentStatePreset: " <sbspreset pkgurl=\"pkg://Watercolour_Effect\" label=\"\"
+    >\n  <presetinput identifier=\"$outputsize\" uid=\"2496494785\" type=\"8\" value=\"10,10\"
+    />\n  <presetinput identifier=\"outputcolor_01\" uid=\"4137889086\" type=\"3\"
+    value=\"0.764151,0.725735,0.406586,1\" />\n  <presetinput identifier=\"outputcolor_02\"
+    uid=\"4137888771\" type=\"3\" value=\"1,0.932497,0.371698,1\" />\n  <presetinput
+    identifier=\"outputcolor_03\" uid=\"4137888860\" type=\"3\" value=\"0.991857,1,0.598113,1\"
+    />\n  <presetinput identifier=\"outputcolor_04\" uid=\"4137889556\" type=\"3\"
+    value=\"0.971242,1,0.739623,1\" />\n  <presetinput identifier=\"opacitymult_01\"
+    uid=\"4141430181\" type=\"0\" value=\"0.072\" />\n  <presetinput identifier=\"opacitymult_03\"
+    uid=\"4141430573\" type=\"0\" value=\"0.197\" />\n  <presetinput identifier=\"levelinlow\"
+    uid=\"4141394257\" type=\"0\" value=\"0.197\" />\n  <presetinput identifier=\"levelinhigh\"
+    uid=\"4141394316\" type=\"0\" value=\"0.945\" />\n  <presetinput identifier=\"outputcolor\"
+    uid=\"4141394757\" type=\"0\" value=\"1\" />\n </sbspreset>\n"
+  IsRuntimeOnly: 0
+  GenerateAllOutputs: 0
+  GenerateAllMipmaps: 1
+  OutputMaterial: {fileID: 2100000, guid: e3116a176cc458e49867bd3de3dafa40, type: 2}
+  DefaultPreset: " <sbspreset pkgurl=\"pkg://Watercolour_Effect\" label=\"\" >\n 
+    <presetinput identifier=\"$outputsize\" uid=\"2496494785\" type=\"8\" value=\"10,10\"
+    />\n </sbspreset>\n"
+  MaterialShader: Universal Render Pipeline/Lit
+  RenderTextures: 0
+  OutputRemaped: 0
+  Presets: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 1172786803485966396
+      type: {class: SubstanceInputInt2, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 0
+        Description:
+          Identifier: $outputsize
+          Label: $outputsize
+          GuiGroup: 
+          GuiDescription: 
+          Type: 5
+          WidgetType: 0
+        Data: {x: 10, y: 10}
+        NumericalDescription:
+          DefaultValue: {x: 8, y: 8}
+          MinValue: {x: 0, y: 0}
+          MaxValue: {x: 1, y: 1}
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1172786803485966397
+      type: {class: SubstanceInputInt, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 1
+        Description:
+          Identifier: $randomseed
+          Label: $randomseed
+          GuiGroup: 
+          GuiDescription: 
+          Type: 4
+          WidgetType: 0
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          LabelFalse: 
+          LabelTrue: 
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1172786803485966398
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 2
+        Description:
+          Identifier: outputcolor_01
+          Label: Base Colour (Dark)
+          GuiGroup: Colour
+          GuiDescription: The Base Dark Colour
+          Type: 3
+          WidgetType: 3
+        Data: {x: 0.764151, y: 0.72573495, z: 0.406586, w: 1}
+        NumericalDescription:
+          DefaultValue: {x: 0.125262, y: 0.291126, z: 0.441026, w: 1}
+          MinValue: {x: 0, y: 0, z: 0, w: 0}
+          MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1172786803485966399
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 3
+        Description:
+          Identifier: outputcolor_02
+          Label: Base Colour (Mid)
+          GuiGroup: Colour
+          GuiDescription: The Mid tone for the Base Colour
+          Type: 3
+          WidgetType: 3
+        Data: {x: 1, y: 0.93249655, z: 0.37169808, w: 1}
+        NumericalDescription:
+          DefaultValue: {x: 0.207843, y: 0.428473, z: 0.605128, w: 1}
+          MinValue: {x: 0, y: 0, z: 0, w: 0}
+          MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1172786803485966400
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 4
+        Description:
+          Identifier: outputcolor_03
+          Label: Base Colour (Mid 2)
+          GuiGroup: Colour
+          GuiDescription: Another Mid tone colour for Base colour
+          Type: 3
+          WidgetType: 3
+        Data: {x: 0.991857, y: 1, z: 0.5981132, w: 1}
+        NumericalDescription:
+          DefaultValue: {x: 0.134881, y: 0.452666, z: 0.651282, w: 1}
+          MinValue: {x: 0, y: 0, z: 0, w: 0}
+          MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1172786803485966401
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 5
+        Description:
+          Identifier: outputcolor_04
+          Label: Base Colour (Light)
+          GuiGroup: Colour
+          GuiDescription: The lighter tones for the Base Colour
+          Type: 3
+          WidgetType: 3
+        Data: {x: 0.97124225, y: 1, z: 0.7396226, w: 1}
+        NumericalDescription:
+          DefaultValue: {x: 0.190502, y: 0.637075, z: 0.748718, w: 1}
+          MinValue: {x: 0, y: 0, z: 0, w: 0}
+          MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1172786803485966402
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 6
+        Description:
+          Identifier: outputcolor_05
+          Label: Base Colour 2
+          GuiGroup: Colour
+          GuiDescription: 'A Second colour to give variation
+
+'
+          Type: 3
+          WidgetType: 3
+        Data: {x: 0.619302, y: 0.388408, z: 0.65641, w: 1}
+        NumericalDescription:
+          DefaultValue: {x: 0.619302, y: 0.388408, z: 0.65641, w: 1}
+          MinValue: {x: 0, y: 0, z: 0, w: 0}
+          MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1172786803485966403
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 7
+        Description:
+          Identifier: outputcolor_06
+          Label: Base Colour 3
+          GuiGroup: Colour
+          GuiDescription: A third colour to add variation
+          Type: 3
+          WidgetType: 3
+        Data: {x: 0.728205, y: 0.700198, z: 0.482597, w: 1}
+        NumericalDescription:
+          DefaultValue: {x: 0.728205, y: 0.700198, z: 0.482597, w: 1}
+          MinValue: {x: 0, y: 0, z: 0, w: 0}
+          MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1172786803485966404
+      type: {class: SubstanceInputFloat4, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 8
+        Description:
+          Identifier: outputcolor_07
+          Label: Base Colour 4
+          GuiGroup: Colour
+          GuiDescription: Another colour to give variation
+          Type: 3
+          WidgetType: 3
+        Data: {x: 0.363769, y: 0.569231, z: 0.457943, w: 1}
+        NumericalDescription:
+          DefaultValue: {x: 0.363769, y: 0.569231, z: 0.457943, w: 1}
+          MinValue: {x: 0, y: 0, z: 0, w: 0}
+          MaxValue: {x: 0, y: 0, z: 0, w: 0}
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1172786803485966405
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 9
+        Description:
+          Identifier: opacitymult_01
+          Label: Second Colour Opacity
+          GuiGroup: Opacity
+          GuiDescription: Second Colour Opacity
+          Type: 0
+          WidgetType: 1
+        Data: 0.072
+        NumericalDescription:
+          DefaultValue: 0.33
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1172786803485966406
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 10
+        Description:
+          Identifier: opacitymult_02
+          Label: Third Colour Opacity
+          GuiGroup: Opacity
+          GuiDescription: Third Colour Opacity
+          Type: 0
+          WidgetType: 1
+        Data: 0.3
+        NumericalDescription:
+          DefaultValue: 0.3
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1172786803485966407
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 11
+        Description:
+          Identifier: opacitymult_03
+          Label: Fourth Colour Opacity
+          GuiGroup: Opacity
+          GuiDescription: Fourth Colour Opacity
+          Type: 0
+          WidgetType: 1
+        Data: 0.197
+        NumericalDescription:
+          DefaultValue: 1
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1172786803485966408
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 12
+        Description:
+          Identifier: levelinlow
+          Label: Level In Low
+          GuiGroup: normal
+          GuiDescription: The <b>Level in low</b> parameter defines the input image's
+            lowlight levels
+          Type: 0
+          WidgetType: 1
+        Data: 0.197
+        NumericalDescription:
+          DefaultValue: 0.35967
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1172786803485966409
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 13
+        Description:
+          Identifier: levelinhigh
+          Label: Level In High
+          GuiGroup: normal
+          GuiDescription: The <b>Level in high</b> parameter defines the input image's
+            highlight levels
+          Type: 0
+          WidgetType: 1
+        Data: 0.945
+        NumericalDescription:
+          DefaultValue: 0.489387
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1172786803485966410
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 14
+        Description:
+          Identifier: levelinmid
+          Label: Level In Mid
+          GuiGroup: normal
+          GuiDescription: The <b>Level in mid</b> parameter defines the input image's
+            midtone levels
+          Type: 0
+          WidgetType: 1
+        Data: 0.5
+        NumericalDescription:
+          DefaultValue: 0.5
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1172786803485966411
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 15
+        Description:
+          Identifier: leveloutlow
+          Label: Level Out Low
+          GuiGroup: normal
+          GuiDescription: The <b>Level in low</b> parameter defines the output image's
+            lowlight levels
+          Type: 0
+          WidgetType: 1
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1172786803485966412
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 16
+        Description:
+          Identifier: levelouthigh
+          Label: Level Out High
+          GuiGroup: normal
+          GuiDescription: The <b>Level out high</b> parameter defines the output
+            image's highlight levels
+          Type: 0
+          WidgetType: 1
+        Data: 1
+        NumericalDescription:
+          DefaultValue: 1
+          MinValue: 0
+          MaxValue: 1
+          SliderStep: 0.01
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1172786803485966413
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 17
+        Description:
+          Identifier: outputcolor
+          Label: Roughness
+          GuiGroup: roughness
+          GuiDescription: The <b>Color Output</b> parameter creates a uniform color
+            output image
+          Type: 0
+          WidgetType: 3
+        Data: 1
+        NumericalDescription:
+          DefaultValue: 0.670588
+          MinValue: 0
+          MaxValue: 0
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []
+    - rid: 1172786803485966414
+      type: {class: SubstanceInputFloat, ns: Adobe.Substance.Input, asm: Adobe.Substance}
+      data:
+        Index: 18
+        Description:
+          Identifier: outputcolor_1
+          Label: Metallic
+          GuiGroup: Metallic
+          GuiDescription: The <b>Color Output</b> parameter creates a uniform color
+            output image
+          Type: 0
+          WidgetType: 3
+        Data: 0
+        NumericalDescription:
+          DefaultValue: 0
+          MinValue: 0
+          MaxValue: 0
+          SliderStep: 0
+          SliderClamp: 0
+          EnumValueCount: 0
+          EnumValues: []

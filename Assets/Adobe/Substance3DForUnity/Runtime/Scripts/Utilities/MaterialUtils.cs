@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+using UnityEditor;
 using UnityEngine;
 
 namespace Adobe.Substance
@@ -305,7 +306,7 @@ namespace Adobe.Substance
                     return false;
             }
         }
-
+     
         #region PhysicalSize
 
         public static void ApplyPhysicalSize(Material material, Vector3 physicalSize, bool enablePhysicalSize)
@@ -392,5 +393,10 @@ namespace Adobe.Substance
         }
 
         #endregion Live output assignment
+
+        static public Shader GetShader(this SubstanceGraphSO graph)
+        {
+            return (graph.OutputMaterial != null) ? graph.OutputMaterial.shader : GetStandardShader();
+        }
     }
 }

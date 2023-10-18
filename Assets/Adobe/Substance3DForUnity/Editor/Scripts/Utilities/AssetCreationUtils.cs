@@ -48,10 +48,11 @@ namespace Adobe.SubstanceEditor
         public static void UpdateMeterialAssignment(SubstanceGraphSO graph)
         {
             graph.MaterialShader = graph.OutputMaterial.shader.name;
+            var shaderProperties = EditorTools.GetShaderProperties(graph.GetShader());
 
             foreach (var output in graph.Output)
             {
-                if (!output.IsStandardOutput(graph.OutputMaterial) && (!graph.GenerateAllOutputs))
+                if (!output.IsStandardOutput(shaderProperties) && (!graph.GenerateAllOutputs))
                 {
                     var texturePath = AssetDatabase.GetAssetPath(output.OutputTexture);
 

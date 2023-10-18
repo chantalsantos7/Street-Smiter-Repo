@@ -1,10 +1,7 @@
 using Adobe.Substance.Input;
 using System;
-using System.Collections;
-using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Runtime.InteropServices;
-using System.Threading.Tasks;
 using UnityEngine;
 
 #if UNITY_EDITOR
@@ -273,6 +270,16 @@ namespace Adobe.Substance
                     }
 
                     NativeDataImage srcImage = data.Data.ImageData;
+
+                    if ((srcImage.height.ToInt32() != texture.height) ||
+                        (srcImage.width.ToInt32() != texture.width))
+                    {
+#if UNITY_2021_2_OR_NEWER
+                        texture.Reinitialize(srcImage.width.ToInt32(), srcImage.height.ToInt32());
+#else
+                        texture.Resize(srcImage.width.ToInt32(), srcImage.height.ToInt32());
+#endif
+                    }
 
                     if (texture.format != TextureFormat.RGBA32 && texture.format != TextureFormat.BGRA32)
                     {

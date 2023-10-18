@@ -196,6 +196,23 @@ namespace Adobe.SubstanceEditor
             }
         }
 
+        static readonly char[] extraInvalidChars = { '.' };
+
+        private static string ReplaceInvalidChars(string filename)
+        {
+            foreach (char c in Path.GetInvalidPathChars())
+            {
+                filename = filename.Replace(c, '_');
+            }
+
+            foreach (char c in extraInvalidChars)
+            {
+                filename = filename.Replace(c, '_');
+            }
+
+            return filename;
+        }
+
         /// <summary>
         /// Returns the output path for assets associated with a given graph.
         /// </summary>
@@ -212,7 +229,35 @@ namespace Adobe.SubstanceEditor
 
             var dir = Path.GetDirectoryName(graphSO.AssetPath);
             var sbsarName = Path.GetFileNameWithoutExtension(graphSO.AssetPath);
+            sbsarName = ReplaceInvalidChars(sbsarName);
             return Path.Combine(dir, $"{sbsarName}_{graphSO.Name}");
         }
+
+        internal static void GetShaderProperties(Shader shader, List<string> result)
+        {
+            for (int i = 0; i < ShaderUtil.GetPropertyCount(shader); i++)
+            {
+                if (ShaderUtil.GetPropertyType(shader, i) == ShaderUtil.ShaderPropertyType.TexEnv)
+                {
+                    result.Add(ShaderUtil.GetPropertyName(shader, i));
+                }
+            }
+        }
+
+        internal static List<string> GetShaderProperties(Shader shader)
+        {
+            List<string> result = new List<string>();
+            GetShaderProperties(shader, result);
+            return result;
+        }
+
+        internal static bool IsStandardOutput(this SubstanceOutputTexture output, List<string> shaderProperties)
+        {
+            if (string.IsNullOrEmpty(output.MaterialTextureTarget))
+                return false;
+
+            return shaderProperties.FindIndex(0, shaderProperties.Count, (value) => { return output.MaterialTextureTarget.Equals(value, StringComparison.OrdinalIgnoreCase); }) >= 0;
+        }
+
     }
 }

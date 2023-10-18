@@ -4,6 +4,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using UnityEditor;
 using UnityEngine;
 
@@ -111,7 +112,7 @@ namespace Adobe.SubstanceEditor
 
                 AssetDatabase.Refresh();
             }
-        }
+        }     
 
         /// <summary>
         /// Try to get the texture2D instances for a give graph.
@@ -121,9 +122,11 @@ namespace Adobe.SubstanceEditor
         /// <returns>True if all textures instances exists. If false they must be rebuild.</returns>
         private static bool CheckIfTextureAssetsExist(SubstanceGraphSO graph)
         {
+            var shaderProperties = EditorTools.GetShaderProperties(graph.GetShader());
+
             foreach (var output in graph.Output)
             {
-                if (!output.IsStandardOutput(graph.OutputMaterial) && !graph.GenerateAllOutputs)
+                if (!output.IsStandardOutput(shaderProperties) && !graph.GenerateAllOutputs)
                 {
                     if (output.OutputTexture != null)
                     {

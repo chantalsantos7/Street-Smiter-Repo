@@ -116,14 +116,7 @@ namespace Adobe.SubstanceEditor
         private void GetShaderInputTextures(Shader shader)
         {
             _shaderInputTextures.Add("none");
-
-            for (int i = 0; i < ShaderUtil.GetPropertyCount(shader); i++)
-            {
-                if (ShaderUtil.GetPropertyType(shader, i) == ShaderUtil.ShaderPropertyType.TexEnv)
-                {
-                    _shaderInputTextures.Add(ShaderUtil.GetPropertyName(shader, i));
-                }
-            }
+            EditorTools.GetShaderProperties(shader, _shaderInputTextures);
         }
 
         public void OnDisable()
@@ -545,12 +538,14 @@ namespace Adobe.SubstanceEditor
                 {
                     var outputsCount = outputList.arraySize;
 
+                    var shaderProperties = EditorTools.GetShaderProperties(_target.GetShader());
+
                     for (int i = 0; i < outputsCount; i++)
                     {
                         var outputProperty = outputList.GetArrayElementAtIndex(i);
                         var outputTexture = _target.Output[i];
 
-                        if (generateAllTextures || outputTexture.IsStandardOutput(_target.OutputMaterial))
+                        if (generateAllTextures || outputTexture.IsStandardOutput(shaderProperties))
                             valueChanged |= DrawOutputTexture(outputProperty, _GeneratedTextureGUI, outputTexture);
                     }
                 }

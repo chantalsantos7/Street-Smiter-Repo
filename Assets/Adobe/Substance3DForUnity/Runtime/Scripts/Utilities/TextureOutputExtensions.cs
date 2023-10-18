@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -85,7 +86,7 @@ namespace Adobe.Substance
 #else
             return material.HasProperty(output.MaterialTextureTarget);
 #endif
-        }
+        }       
 
         public static bool IsStandardOutput(this SubstanceOutputTexture output)
         {
