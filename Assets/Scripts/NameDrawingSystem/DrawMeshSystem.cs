@@ -1,8 +1,9 @@
 using StreetSmiter.Utilities;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
+/*
+ Part of the NameDrawingSystem - creates dynamic line meshes following the player's touch screen input
+ */
 public class DrawMeshSystem : MonoBehaviour
 {
 
@@ -14,8 +15,8 @@ public class DrawMeshSystem : MonoBehaviour
     private int lastSortingOrder;
     private Mesh mesh;
     private Vector3 lastMouseWorldPosition;
-    private float lineThickness = 0.25f;
-    private Color lineColour = Color.green;
+    private float lineThickness = 0.2f;
+    private Color lineColour = Color.black;
 
     private void Awake()
     {
@@ -32,9 +33,6 @@ public class DrawMeshSystem : MonoBehaviour
             {
                 // Mouse Down
                 CreateMeshObject();
-
-                //issue probs using the MeshUtils function w/o understanding it
-                //if we create a mesh just using our original function
 
                 //mesh = MeshUtils.CreateMesh(mouseWorldPosition, mouseWorldPosition, mouseWorldPosition, mouseWorldPosition);
                 mesh = CreateNewMesh();
