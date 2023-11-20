@@ -120,7 +120,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 4875
+  controlID: 53
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -171,7 +171,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 4820
+  controlID: 54
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -1851,7 +1851,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 54faffff58faffff08fbffff
+      m_ExpandedIDs: 08fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -2284,9 +2284,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 25.264803, y: -0.83957326, z: 39.5748}
+    m_Target: {x: 25.437311, y: -4.4486337, z: 38.69696}
     speed: 2
-    m_Value: {x: 25.264803, y: -0.83957326, z: 39.5748}
+    m_Value: {x: 25.437311, y: -4.4486337, z: 38.69696}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -2332,13 +2332,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.048850555, y: 0.26594913, z: -0.0113668945, w: 0.9631878}
+    m_Target: {x: 0.12428511, y: 0.24406323, z: -0.029917743, w: 0.9618286}
     speed: 2
-    m_Value: {x: 0.047382817, y: 0.2658363, z: -0.01096189, w: 0.96279055}
+    m_Value: {x: 0.121381, y: 0.24258444, z: -0.028987065, w: 0.9620703}
   m_Size:
-    m_Target: 10.45
+    m_Target: 11.296585
     speed: 2
-    m_Value: 10.45
+    m_Value: 10.810129
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -2651,7 +2651,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/SceneAssets/Materials/Chloe/Textures/Lantern
+    - Assets/SceneAssets/Materials/Chloe/Textures/Stall Assets Atlas
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -2659,16 +2659,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/SceneAssets/Materials/Chloe/Textures/Lantern
+  - Assets/SceneAssets/Materials/Chloe/Textures/Stall Assets Atlas
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Github\Street-Smiter-Repo
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 444.6}
-    m_SelectedIDs: 28b30000
-    m_LastClickedID: 45864
-    m_ExpandedIDs: 00000000027800000478000006780000087800000a7800000c78000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 372.6}
+    m_SelectedIDs: 4e7a0000
+    m_LastClickedID: 31310
+    m_ExpandedIDs: 00000000f6770000f8770000fa770000fc770000fe7700000078000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -2696,7 +2696,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000027800000478000006780000087800000a7800000c78000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000f6770000f8770000fa770000fc770000fe77000000780000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
