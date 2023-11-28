@@ -37,7 +37,7 @@ RenderSettings:
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
-  m_Sun: {fileID: 0}
+  m_Sun: {fileID: 143023979602727370}
   m_IndirectSpecularColor: {r: 0.35775155, g: 0.73686606, b: 0.9810811, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
@@ -531,6 +531,31 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 754689513205077732, guid: 2e3a5d0484d87cb48b84d8e8522de086,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.88677055
+      objectReference: {fileID: 0}
+    - target: {fileID: 754689513205077732, guid: 2e3a5d0484d87cb48b84d8e8522de086,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.19152515
+      objectReference: {fileID: 0}
+    - target: {fileID: 754689513205077732, guid: 2e3a5d0484d87cb48b84d8e8522de086,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.41501993
+      objectReference: {fileID: 0}
+    - target: {fileID: 754689513205077732, guid: 2e3a5d0484d87cb48b84d8e8522de086,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.06866272
+      objectReference: {fileID: 0}
+    - target: {fileID: 754689513205077732, guid: 2e3a5d0484d87cb48b84d8e8522de086,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 50.641
+      objectReference: {fileID: 0}
     - target: {fileID: 5805604039217037023, guid: 2e3a5d0484d87cb48b84d8e8522de086,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -586,6 +611,16 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: c536f17eee36c434db78708afca2f272, type: 2}
+    - target: {fileID: 6690812998937105697, guid: 2e3a5d0484d87cb48b84d8e8522de086,
+        type: 3}
+      propertyPath: m_Intensity
+      value: 0.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 6690812998937105697, guid: 2e3a5d0484d87cb48b84d8e8522de086,
+        type: 3}
+      propertyPath: m_UseColorTemperature
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7206827800220298391, guid: 2e3a5d0484d87cb48b84d8e8522de086,
         type: 3}
       propertyPath: m_Materials.Array.data[1]
@@ -602,6 +637,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2e3a5d0484d87cb48b84d8e8522de086, type: 3}
+--- !u!108 &143023979602727370 stripped
+Light:
+  m_CorrespondingSourceObject: {fileID: 6690812998937105697, guid: 2e3a5d0484d87cb48b84d8e8522de086,
+    type: 3}
+  m_PrefabInstance: {fileID: 143023979602727369}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &2667733267764092445 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 8663147660553779996, guid: 9e467b23f74f28b498022324ce312fed,
