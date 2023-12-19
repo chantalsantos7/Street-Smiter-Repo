@@ -63,6 +63,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paper_Box
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b2bd6cadf55b7c043a867e4d34bfe730,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -142,6 +147,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Buddha_Statue
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fcaa5a03463c899408d6f92f3c47f083,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -215,6 +225,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Paper_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c05ec08c7184314bba35a9a86ea604a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -295,6 +310,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da7107d6502c24644bc05797e5c4839b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -368,6 +388,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bucket (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a0f9cbf4cc9f829428ad3687ec7f76c1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -443,6 +468,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lighter
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5f8931a0fd4ec3848899268c15059ab4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -516,6 +546,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bowl (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: eb1989a2f73550744a3a7c8f55294770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -591,6 +626,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_03
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7859b16d3452aab4b93ad19c7dbc8132,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -664,6 +704,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Insense_burner (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a81b838f2d280e74cb78c1bfbf1bd471,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -739,6 +784,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paper_02
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 02087154f8fb6f0418dc7b240e8242dd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -812,6 +862,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Oranges (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2dfa0c34cd0fb6d4a8c41f197f9c5771,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -887,6 +942,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_02
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c52ed1aaefaea22438322f7c6f025e26,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -961,6 +1021,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paper_04
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 7cfa9f02fe6f49944abadf08780a19e4,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1034,6 +1099,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Paper_06
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5e3ce9e761e81d749a76ed8fd5ad8ee2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1119,6 +1189,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Lantern
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa7467d6df83c9f4d8ad37aa1893a680,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1198,6 +1273,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stool
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f8cf9b2e9ca5dbe41b852d2a6d40f85c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1272,6 +1352,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paper_06 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5e3ce9e761e81d749a76ed8fd5ad8ee2,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1341,6 +1426,36 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7905150212132207772, guid: 28341b38f01ab8a408924230d4b8dc62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7532225036555389413, guid: 28341b38f01ab8a408924230d4b8dc62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7116211977602877909, guid: 28341b38f01ab8a408924230d4b8dc62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -6124623628621526407, guid: 28341b38f01ab8a408924230d4b8dc62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -1199324913935989650, guid: 28341b38f01ab8a408924230d4b8dc62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -450941502462843691, guid: 28341b38f01ab8a408924230d4b8dc62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 28341b38f01ab8a408924230d4b8dc62,
         type: 3}
       propertyPath: m_Name
@@ -1370,6 +1485,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -166.175
+      objectReference: {fileID: 0}
+    - target: {fileID: 2067934681507880898, guid: 28341b38f01ab8a408924230d4b8dc62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2391957972036051264, guid: 28341b38f01ab8a408924230d4b8dc62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2811219382168432416, guid: 28341b38f01ab8a408924230d4b8dc62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5271220238548577508, guid: 28341b38f01ab8a408924230d4b8dc62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7257376050981662886, guid: 28341b38f01ab8a408924230d4b8dc62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8637023930575543185, guid: 28341b38f01ab8a408924230d4b8dc62,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1444,6 +1589,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Paper_03 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1c05ec08c7184314bba35a9a86ea604a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1523,6 +1673,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Buddha_Statue_Small
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 4c72c5e1a0ca72c4ea47a8ed29c55257,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1612,6 +1767,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Papers (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1e4005955d476b488b2fb26dc45c3e9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2006,6 +2166,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paper_05
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 20bda666b601e0f40ba55a6f8db3c477,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2095,6 +2260,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Papers
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a1e4005955d476b488b2fb26dc45c3e9,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2174,6 +2344,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Stool (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f8cf9b2e9ca5dbe41b852d2a6d40f85c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2247,6 +2422,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Insense_Holder
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2dd4d09e96baf3640b37aa0f2adc40d3,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2322,6 +2502,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle_01
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b91877c50e2ae034b9bd9b0c717296bd,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2395,6 +2580,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Oranges
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2dfa0c34cd0fb6d4a8c41f197f9c5771,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2475,6 +2665,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tin_Box
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 19a5dfb4b29842a4dac9f42c6a8368a1,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2554,6 +2749,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da7107d6502c24644bc05797e5c4839b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2632,6 +2832,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Stool (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: f8cf9b2e9ca5dbe41b852d2a6d40f85c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2717,6 +2922,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Crate (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: da7107d6502c24644bc05797e5c4839b,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2796,6 +3006,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Short_Stool
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7d737a8ee190694a8b1f84cd68b7990,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2869,6 +3084,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Paper_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: fa74001f1f1ec2a4aa1f04fea673445a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2944,6 +3164,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Insense_burner
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a81b838f2d280e74cb78c1bfbf1bd471,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3018,6 +3243,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Tray (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 346c5276e75a0f54aa05e0f9054ad91f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3091,6 +3321,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Bowl
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: eb1989a2f73550744a3a7c8f55294770,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3170,6 +3405,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Pear
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: bdc57b6dd241b6a449a31f629f6a133c,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
